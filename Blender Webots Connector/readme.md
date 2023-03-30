@@ -1,6 +1,6 @@
 ## Blender Webots Connector
 
-#### The Blender Webots Connector is a powerful tool that enables users to export their Blender projects to Webots. This add-on provides a seamless connection between the two platforms, allowing for easy and efficient project transfers.
+#### The Blender Webots Connector enables users to export their Blender projects to Webots. This add-on provides a seamless connection between the two platforms, allowing for easy and efficient project transfers.
 
 #### One of the key features of the Blender Webots Connector is the ability to define conversion rules in a JSON file. This feature provides users with greater flexibility and control over the export process. Additionally, the add-on supports collision export, either generated from the AABB boxes or manually defined, as well as joint export with custom parameters including axis, limits, and more.
 
