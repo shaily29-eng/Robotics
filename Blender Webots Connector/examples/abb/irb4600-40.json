@@ -1,0 +1,131 @@
+{
+  "BASE": {
+    "target node": "Robot",
+    "boundingObject": {
+    }
+  },
+  "LINK_A": {
+    "target node": "HingeJoint",
+    "jointParameters": {
+      "axis": "0 0 1"
+    },
+    "motor": {
+      "name": "A motor",
+      "maxTorque": 10000,
+      "minPosition": -3.1415,
+      "maxPosition": 3.1415
+    },
+    "positionSensor": {
+      "name": "A sensor"
+    },
+    "physics": {
+      "density": 1150
+    },
+    "boundingObject": {
+    }
+  },
+  "LINK_B": {
+    "target node": "HingeJoint",
+    "jointParameters": {
+      "axis": "0 1 0"
+    },
+    "motor": {
+      "name": "B motor",
+      "maxTorque": 10000,
+      "minPosition": -1.5708,
+      "maxPosition": 2.61799
+    },
+    "positionSensor": {
+      "name": "B sensor"
+    },
+    "physics": {
+      "density": 500
+    },
+    "boundingObject": {
+    }
+  },
+  "LINK_C": {
+    "target node": "HingeJoint",
+    "jointParameters": {
+      "axis": "0 1 0"
+    },
+    "motor": {
+      "name": "C motor",
+      "maxTorque": 10000,
+      "minPosition": -3.1415,
+      "maxPosition": 1.309
+    },
+    "positionSensor": {
+      "name": "C sensor"
+    },
+    "physics": {
+      "density": 400
+    },
+    "boundingObject": {
+    }
+  },
+  "LINK_D": {
+    "target node": "HingeJoint",
+    "jointParameters": {
+      "axis": "1 0 0"
+    },
+    "motor": {
+      "name": "D motor",
+      "maxTorque": 10000,
+      "minPosition": -6.98132,
+      "maxPosition": 6.98132
+    },
+    "positionSensor": {
+      "name": "D sensor"
+    },
+    "physics": {
+      "density": 300
+    },
+    "boundingObject": {
+    }
+  },
+  "LINK_E": {
+    "target node": "HingeJoint",
+    "jointParameters": {
+      "axis": "0 1 0"
+    },
+    "motor": {
+      "name": "E motor",
+      "maxTorque": 10000,
+      "minPosition": -2.18166,
+      "maxPosition": 2.0944
+    },
+    "positionSensor": {
+      "name": "E sensor"
+    },
+    "physics": {
+      "density": 200
+    },
+    "boundingObject": {
+    }
+  },
+  "LINK_F": {
+    "target node": "HingeJoint",
+    "jointParameters": {
+      "axis": "1 0 0"
+    },
+    "motor": {
+      "name": "F motor",
+      "maxTorque": 10000,
+      "minPosition": -6.98132,
+      "maxPosition": 6.98132
+    },
+    "positionSensor": {
+      "name": "F sensor"
+    },
+    "physics": {
+      "density": 100
+    },
+    "boundingObject": {
+      "custom": "Transform {\ntranslation -0.01 0 0\nrotation 0 0 1 1.5708\nchildren [\nCylinder {\nheight 0.04\nradius 0.065\n}\n]\n}"
+    }
+  },
+  "METAL": {
+    "target node": "BrushedAluminium"
+  }
+}
