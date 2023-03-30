@@ -1,4 +1,4 @@
-## Blender Webots Connector
+## TOPIC: Blender Webots Connector
 
 #### The Blender Webots Connector enables users to export their Blender projects to Webots. This add-on provides a seamless connection between the two platforms, allowing for easy and efficient project transfers.
 
